@@ -28,7 +28,8 @@ class MinimalPublisher : public rclcpp::Node
     void timer_callback()
     {
 
-      my_package1::func_hello();
+      // my_func.hpp is only used here.
+      func_hello();   // this function is defined in my_func.hpp
 
       auto message = std_msgs::msg::String();
       message.data = "Hello, world! " + std::to_string(count_++);

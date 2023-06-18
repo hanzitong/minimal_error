@@ -23,6 +23,13 @@ ament_target_dependencies(
   my_package1
 )
 
+target_include_directories(node_defdef  # ${PROJECT_NAME}
+    PUBLIC
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
+    $<INSTALL_INTERFACE:include>
+)
+
 install(TARGETS
   node_defdef
   DESTINATION lib/${PROJECT_NAME}

@@ -8,7 +8,8 @@
 #include "std_msgs/msg/string.hpp"
 
 // #include "include/my_package1/my_func.hpp"
-#include "include/my_func.hpp"
+#include "my_package1/my_func.hpp"
+// #include "include/my_func.hpp"
 // #include "my_func.hpp"
 
 using namespace std::chrono_literals;

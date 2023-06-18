@@ -17,9 +17,11 @@ target_include_directories(my_package1
 )
 
 install(TARGETS my_package1
+    # EXPORT my_package1Targets
     ARCHIVE DESTINATION lib
     LIBRARY DESTINATION lib
     RUNTIME DESTINATION bin
+    INCLUDES DESTINATION include
 )
 
 install(DIRECTORY include/

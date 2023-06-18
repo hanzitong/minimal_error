@@ -13,7 +13,8 @@ add_library(my_package1 SHARED
 
 target_include_directories(my_package1
     PUBLIC
-    include
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include>
 )
 
 install(TARGETS my_package1

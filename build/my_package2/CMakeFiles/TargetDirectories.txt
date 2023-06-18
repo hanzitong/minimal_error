@@ -1,0 +1,10 @@
+/root/minimal_error/build/my_package2/CMakeFiles/uninstall.dir
+/root/minimal_error/build/my_package2/CMakeFiles/my_package2_uninstall.dir
+/root/minimal_error/build/my_package2/CMakeFiles/node_defdef.dir
+/root/minimal_error/build/my_package2/CMakeFiles/test.dir
+/root/minimal_error/build/my_package2/CMakeFiles/edit_cache.dir
+/root/minimal_error/build/my_package2/CMakeFiles/rebuild_cache.dir
+/root/minimal_error/build/my_package2/CMakeFiles/list_install_components.dir
+/root/minimal_error/build/my_package2/CMakeFiles/install.dir
+/root/minimal_error/build/my_package2/CMakeFiles/install/local.dir
+/root/minimal_error/build/my_package2/CMakeFiles/install/strip.dir

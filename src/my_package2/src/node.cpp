@@ -7,12 +7,10 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 
-// #include "include/my_package1/my_func.hpp"
 #include "my_package1/my_func.hpp"
-// #include "include/my_func.hpp"
-// #include "my_func.hpp"
 
 using namespace std::chrono_literals;
+namespace my1 = my_package1;
 
 class MinimalPublisher : public rclcpp::Node
 {
@@ -29,8 +27,7 @@ class MinimalPublisher : public rclcpp::Node
     void timer_callback()
     {
 
-      // my_func.hpp is only used here.
-      func_hello();   // this function is defined in my_func.hpp
+      my1::func_hello();
 
       auto message = std_msgs::msg::String();
       message.data = "Hello, world! " + std::to_string(count_++);

@@ -33,7 +33,7 @@ target_include_directories(node_defdef  # ${PROJECT_NAME}
 install(TARGETS
   node_defdef
   DESTINATION lib/${PROJECT_NAME}
-  DESTINATION lib
+  # DESTINATION lib
 )
 
 if(BUILD_TESTING)

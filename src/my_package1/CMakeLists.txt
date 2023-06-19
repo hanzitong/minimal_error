@@ -17,6 +17,19 @@ target_include_directories(my_package1
     $<INSTALL_INTERFACE:include>
 )
 
+# ament_export_dependencies(
+#     rclcpp
+#     ament_cmake
+# )
+
+ament_export_include_directories(   # without it , colcon cannot find xx.hpp
+    include
+)
+
+ament_export_libraries( # without it , colcon cannot find src/xx.
+    ${PROJECT_NAME}
+)
+
 install(TARGETS my_package1
     # EXPORT my_package1Targets
     ARCHIVE DESTINATION lib
@@ -29,6 +42,5 @@ install(DIRECTORY include/
     DESTINATION include
 )
 
-# ament_export_include_directories(include)
 
 ament_package()

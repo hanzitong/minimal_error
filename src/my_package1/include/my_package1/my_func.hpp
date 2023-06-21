@@ -7,6 +7,5 @@ namespace my_package1
 void func_hello(void);
 
 }
-void func_hello(void);
 
 #endif

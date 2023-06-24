@@ -1,6 +1,0 @@
-Invoking command in '/root/minimal_error/build/my_package1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/minimal_error/src/my_package1 -DCMAKE_INSTALL_PREFIX=/root/minimal_error/install/my_package1
-Invoked command in '/root/minimal_error/build/my_package1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/minimal_error/src/my_package1 -DCMAKE_INSTALL_PREFIX=/root/minimal_error/install/my_package1
-Invoking command in '/root/minimal_error/build/my_package1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/minimal_error/build/my_package1 -- -j16 -l16
-Invoked command in '/root/minimal_error/build/my_package1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/minimal_error/build/my_package1 -- -j16 -l16
-Invoking command in '/root/minimal_error/build/my_package1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/minimal_error/build/my_package1
-Invoked command in '/root/minimal_error/build/my_package1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/minimal_error/build/my_package1
